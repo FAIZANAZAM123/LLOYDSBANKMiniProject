@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar3 {
+    background-color: #006a4d !important;
+}
+
+
+@media (max-width: 768px) {
+    .left-dropdown {
+        left: 100% !important; 
+        top: 0 !important;      
+        right: auto !important;
+        transform: translateX(-280%) !important;
+    }
+}
+
+
+
+ 
+@media (min-width: 992px) {
+    .custom-padding {
+        padding-left: 100px !important;
+        padding-right: 120px !important;
+    }
+
+    .custom-padding1 {
+        padding-left: 91px !important;
+        padding-right: 91px !important;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar2 {
+        background-color: white !important;
+        height: 60px;
+    }
+
+    .nav-item:not(:last-child) {
+
+        border-right: 1px solid black;
+        /* or any color you prefer */
+        min-height: 60px;
+    }
+
+    .hello {
+        border-right: 1px solid black;
+        min-height: 60px;
+    }
+
+    .hello1 {
+        border-left: 1px solid black
+    }
+
+    .first {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        border: none !important;
+        min-height: 30px;
+        max-height: 60px;
+    }
+
+    .nav-item {
+        display: flex;
+        /* justify-content: space-evenly; */
+        align-items: center;
+    }
+
+    .dropdown {
+        padding-left: 30px !important;
+        padding-right: 20px !important;
+
+    }
+
+    .alldropdowns {
+        display: flex;
+        padding-left:81px;
+        padding-right: 45px;
+
+    }
+
+    .hello {
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    /* .navbar2 {
+        overflow: hidden;
+    }
+
+    .navbar2:not(:has(*)) {
+        background: none;
+    } */
+    
+
+
+    .btn2 {
+        margin-left: 15px;
+    }
+
+}
+@media (min-width: 992px) and (max-width:1212px)
+{
+    .dropdown {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+    }
+
+    .alldropdowns {
+        display: flex;
+        padding-left:45px;
+        padding-right: 45px;
+
+    }
+    .btn-lg {
+
+        width: 16.7rem !important
+    }
+}
+
+@media (min-width:898px) and (max-width:1160px) {
+    .btn-lg {
+
+        width: 16.7rem !important
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width:1168px) {
+    .dropdown {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .alldropdowns {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hello {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1000px) {
+    .dropdown {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+
+    .alldropdowns {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .hello {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 788px) {
+    .navbar2 {
+        overflow: hidden;
+    }
+
+    .navbar2:not(:has(*)) {
+        background: none;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    .maincontaineroutside {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 897px) {
+    .maincontaineroutside {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 757px) {
+    .btns {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn2 {
+
+        margin-left:auto !important;
+        margin-right: auto!important;
+    }
+    .btn-lg{
+        
+        width: 16.5rem !important;
+        margin-top: 5px !important;
+    }
+}
+
+.nav-item:hover {
+    background-color: grey;
+    color:white !important;
+}
+
+.nav-item {
+    transition: all 0.3s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: whitesmoke;
+}
+
+img {
+    height: 46px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color:  #006a4d;
+}
+
+
+
+.box {
+    width: 18rem;
+    height: auto;
+    background-color: #2178b0;
+    color: #fff;
+    position: relative;
+    float: left;
+
+}
+
+.box.arrow-top {
+    margin-top: 40px;
+}
+
+.box.arrow-top:after {
+    content: " ";
+    position: absolute;
+    right: 131px;
+    top: -12px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid #2178b0;
+
+}
+
+.alldropdowns li{
+    color: #006a4d;
+    font-weight: 500;
+}
+/* .left-card {
+    width: 30%;
+} */
+
+.btncard1 {
+    border: none !important;
+    margin-top: 2.5rem !important;
+    width: 100% !important;
+    border-radius: 0px !important;
+
+}
+
+.card-textcard1 {
+    word-wrap: break-word;
+    margin-left: 20px !important;
+}
+
+.h1card1 {
+    background-color: #13679b;
+    height: 56px !important;
+    width: 70px !important;
+    padding: 0px 13px !important;
+
+}
+
+.card2 {
+    margin-top: 18rem !important;
+}
+
+
+.logo {
+    justify-content: space-between;
+}
+
+.logo1 img {
+    width: 65px;
+    height: 38px;
+    margin-top: 8px;
+
+}
+
+.logo1 {
+    border: 1px solid black;
+
+    width: 73px;
+    height: 58px;
+}
+
+.line {
+    background-color: grey;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    text-align: center;
+}
+
+
+
+.btn-lg {
+    /* min-width: 15.5rem; */
+    width: 22.3rem;
+}
+
+.btn2 {
+    margin-left: 15px;
+}
+
+.btns {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.card3,
+.card4 {
+    margin-top: 37px;
+
+
+
+}
+
+
+.card-top-inner-border::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1.1px;
+    height: 6px;
+    background:#006a4d;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.card-top-inner-border {
+    position: relative;
+}
+
+.dropend {
+    width: 101%;
+    height: 54px;
+    border-radius: 0px !important;
+
+}
+
+.dropend button {
+    margin-top: 2px;
+    border-radius: 0px !important;
+    background-color: whitesmoke !important;
+    color: #006a4d !important;
+    font-weight: 500;
+
+}
+
+.tohr {
+    margin-top: 0.5rem;
+}
+
+.dropend1 button {
+    margin-top: 2px;
+    border-radius: 0px !important;
+
+}
+
+.dropend1 {
+    width: 101%;
+    height: 57px;
+    border-radius: 0px !important;
+
+
+}
+
+.dropend button:hover {
+    background-color:greenyellow !important;
+    color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
